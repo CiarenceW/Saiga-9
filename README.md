@@ -1,4 +1,4 @@
-# kalashnikov Concern Saiga-9
+# Kalashnikov Concern Saiga-9
 ### Russian-made 9mm PCC
 
 ![](https://raw.githubusercontent.com/CiarenceW/Saiga-9/refs/heads/master/backatitlikeacrackaddict.png)
