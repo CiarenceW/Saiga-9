@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7253532324814736047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\CiarenceW-Saiga9
+  definitions:
+  - {fileID: 5897886265953266890, guid: 6cba71255412c5b4e9093163262ab84b, type: 3}
+--- !u!114 &-7199041026915977598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\CiarenceW-Saiga9
+  includeMetaFiles: 0
+  files:
+  - {fileID: 102900000, guid: 6874e17e523d6274aa7a5ae10e81d31e, type: 3}
+  - {fileID: 102900000, guid: 481fad80acb508a46b79e3710a315269, type: 3}
+  - {fileID: 102900000, guid: 8994ab844c7ed3f49990e989da7ccd6c, type: 3}
+--- !u!114 &-4557745545373457695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\CiarenceW-Saiga9
+  assetBundles:
+  - assetBundleName: ciarencew-saiga9.windows
+    assets:
+    - {fileID: 4363423199272293563, guid: 30a2a29d2397d9c47a1401b5ba608002, type: 3}
+    - {fileID: 8629596178742591087, guid: fa98206d500af7246a73cc178a10cbcc, type: 3}
+    - {fileID: 11400000, guid: 92f1015f812c64a4092c8a0270907e61, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: Saiga-9 Manifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 7941147326332531612}
+  - {fileID: -7253532324814736047}
+  - {fileID: -4557745545373457695}
+  - {fileID: -7199041026915977598}
+  identity: {fileID: 7941147326332531612}
+  QuickAccess: 0
+--- !u!114 &7941147326332531612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: CiarenceW
+  Name: Saiga-9
+  Description: a semi auto russian pistol I guess
+  Version: 1.0.0
+  Dependencies:
+  - {fileID: 11400000, guid: ac948e712e82b4342afad8444c5eaacd, type: 2}
